@@ -9,6 +9,6 @@ const getRandomNum = (e) => {
 };
 
 function getRandom(min, max) {
-  console.log(Math.floor(Math.random() * (max - min + 1)) + min);
+  alert(Math.floor(Math.random() * (max - min + 1)) + min);
 }
 btnRandome.addEventListener("click", getRandomNum);
